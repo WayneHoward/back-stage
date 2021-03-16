@@ -25,9 +25,16 @@ const routes = [
         path: '/users',
         component: () => import('./../components/user/User.vue')
       },
+      {
+        path: '/rights',
+        component: () => import('./../components/Power/Rights.vue')
+      },
+      {
+        path: '/roles',
+        component: () => import('./../components/Power/Roles.vue')
+      },
     ]
   },
-  
 ]
 
 const router = new VueRouter({
